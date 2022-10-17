@@ -1,4 +1,3 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
 import { addDoc, collection, getDocs, getFirestore } from 'firebase/firestore';
@@ -32,4 +31,3 @@ addDoc(ref, { name: "Surya", regno: "2019503057" })
     .catch(err => console.log(err))
 })
 .catch(err => console.log(err));
-
